@@ -4,7 +4,7 @@ FROM heroku/cedar:14
 # Internally, we arbitrarily use port 3000
 ENV PORT 3000
 # Which version of Python?
-ENV PYTHON_VERSION python-2.7.11
+ENV PYTHON_VERSION python-3.5.1
 
 # Add Python binaries to path.
 ENV PATH /app/.heroku/python/bin/:$PATH
